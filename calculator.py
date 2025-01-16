@@ -25,6 +25,7 @@ while True:
 
     if len(operator) > 1:
         print('Please type only one operator.')
+        continue
     
     print('Calculating...')
     if operator == '+':
